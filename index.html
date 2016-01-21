@@ -6,19 +6,20 @@
 
   <title>Google Homepage</title>
 	
- <link rel="stylesheet" href="css/styles.css">
+ <link rel="stylesheet" href="styles.css">
 
 
 </head>
 
 <body>
 
+<div id="wrap">
 	<nav>
 		<ul>
 			<li><a href="#">Gmail</a></li>
 			<li><a href="#">Images</a></li>
 			<li id="apps"><a href="#">App link</a></li>
-			<li><a href="#">Sign in</a></li>
+			<li id="sign-in"><a href="#">Sign in</a></li>
 	</nav>
 
 	<div id="search">
@@ -27,12 +28,14 @@
 		<h2> Canada </h2>
 
 		<form>
-		<input type="search"> 
-		<input type="submit" value="Google Search">
-		<input type="submit" value="I'm Feeling Lucky">
+			<input id="search-box" type="search"> </li>
+			<ul id="search-buttons">
+				<li id="google-search"><input class="button" type="submit" value="Google Search"> </li>
+				<li><input class="button" type="submit" value="I'm Feeling Lucky"> </li>
+			</ul>
 		</form>
 
-		<p>Google.ca offered in: <a href="#">Français</a>
+		<p>Google.ca offered in: <a href="#"> Français</a>
 
 
 	</div>
@@ -43,9 +46,9 @@
 				<li><a href="#">Business</a></li>
 				<li><a href="#">About</a></li>
 			</ul>
-			<ul>
+			<ul id="right">
 				<li><a href="#">Privacy</a></li>
-				<li><a href="#">Term</a></li>
+				<li><a href="#">Terms</a></li>
 				<li><a href="#">Settings</a></li>
 			</ul>
 
@@ -54,6 +57,6 @@
 
 
 	
-
+</div>
 </body>
 </html>
