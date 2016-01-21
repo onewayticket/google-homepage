@@ -4,4 +4,4 @@ This is a practice from The Odin Project on HTML and CSS where I recreated Googl
 
 [View final page here](http://htmlpreview.github.io/?https://github.com/onewayticket/google-homepage/blob/master/index.html)
 
-[Project infor here](http://www.theodinproject.com/web-development-101/html-css?ref=lnav)
+[Project info here](http://www.theodinproject.com/web-development-101/html-css?ref=lnav)
